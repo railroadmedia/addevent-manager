@@ -1,7 +1,19 @@
 
 # railroad/addevent-manager
 
-Also see
+* [Also see](#also-see)
+* [Overview of components, Simplified](#overview-of-components--simplified)
+* [Overview of components, with details](#overview-of-components--with-details)
+    + [Listener for content, content-datum, content-field changes](#listener-for-content--content-datum--content-field-changes)
+    + [Primary Eval command](#primary-eval-command)
+    + [Process the content requiring event creation](#process-the-content-requiring-event-creation)
+    + [CreateEvent](#createevent)
+    + [UpdateEvent](#updateevent)
+* [Building Tests for TDD](#building-tests-for-tdd)
+    + [Primary Eval function](#primary-eval-function)
+    + [create or update event](#create-or-update-event)
+
+## Also see
 * railroad/musora (current usage)
 * new components to replace parts or God-Object in railroad/musora
   * railroad/addevent-sdk (COMPLETE)
