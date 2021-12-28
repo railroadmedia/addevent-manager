@@ -23,4 +23,5 @@ class FooTest extends TestCase
 
         $response->assertStatus(200);
     }
+
 }
